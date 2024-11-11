@@ -1,0 +1,38 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* A clean font */
+  background-color: #f8f9fa; /* Light background */
+  color: #333;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Bold headings for impact */
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav a:hover {
+  color: #ffcc00;
+  transition: color 0.3s ease-in-out;
+}

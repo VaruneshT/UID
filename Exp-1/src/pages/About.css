@@ -1,0 +1,154 @@
+/* src/pages/About.css */
+.about {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .company-overview {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .company-overview h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .company-overview p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  .mission-vision {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  
+  .mission, .vision {
+    flex: 1;
+    min-width: 280px;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .mission h2, .vision h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .mission p, .vision p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .values {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .values h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .values ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .values li {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  .values li strong {
+    color: #333;
+  }
+  
+  .team {
+    text-align: center;
+  }
+  
+  .team h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .member {
+    margin: 1rem;
+    text-align: center;
+    max-width: 200px;
+  }
+  
+  .member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .member h3 {
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .member p {
+    color: #777;
+  }
+  .member img {
+    transition: transform 0.3s ease;
+  }
+  
+  .member img:hover {
+    transform: scale(1.05);
+  }
+  .home .hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 30%;
+  margin: 10px;
+}
+
+.feature-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.call-to-action {
+  text-align: center;
+}
+.about .company-overview img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  

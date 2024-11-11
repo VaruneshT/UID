@@ -1,0 +1,117 @@
+/* UserProfile.css */
+
+.profile-container {
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 0.8s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
+  
+  .profile-name {
+    font-size: 28px;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+  }
+  
+  .profile-bio {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0 20px;
+    font-style: italic;
+  }
+  
+  .profile-contact {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .profile-skills {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .profile-skills h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .skill {
+    margin-bottom: 10px;
+  }
+  
+  .skill span {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .skill-bar {
+    background-color: #ddd;
+    border-radius: 8px;
+    height: 8px;
+    margin-top: 5px;
+    overflow: hidden;
+  }
+  
+  .skill-level {
+    background-color: #007acc;
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  .profile-social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .profile-link {
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .profile-link.linkedin { background-color: #0073b1; }
+  .profile-link.github { background-color: #333; }
+  .profile-link.portfolio { background-color: #007acc; }
+  
+  .profile-link:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    filter: brightness(1.1);
+  }
+  

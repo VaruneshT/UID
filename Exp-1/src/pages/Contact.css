@@ -1,0 +1,87 @@
+/* src/pages/Contact.css */
+.contact {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .contact-info {
+    padding: 50px 20px;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  .contact-info h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .contact-info p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .contact-form {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact-form h2 {
+    margin: 0;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e68a00;
+  }
+  .contact .contact-info {
+    text-align: center;
+  }
+  
+  .contact-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  

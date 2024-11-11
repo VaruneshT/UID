@@ -1,0 +1,59 @@
+/* src/pages/Services.css */
+.services {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .services-overview {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f4f4f4;
+  }
+  
+  .services-overview h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .services-overview p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .service-list {
+    padding: 50px 20px;
+  }
+  
+  .service-item {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-item h2 {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  
+  .service-item p {
+    font-size: 1rem;
+  }
+  .services .services-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .service-item {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
